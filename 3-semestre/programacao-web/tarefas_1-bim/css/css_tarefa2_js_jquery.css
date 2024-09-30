@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+#conteudo {
+    background-color: grey;
+    padding: 10%;
+}
+
+p {
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: underline;
+    margin: 10px;
+    margin-left: 0;
+}
+
+#calcular {
+    display: block;
+    margin: 10px;
+    margin-left: 0;
+}

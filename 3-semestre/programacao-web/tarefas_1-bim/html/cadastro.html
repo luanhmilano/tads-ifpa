@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body style="margin: 0%;">
+    <div style="background-color: #605e5e;width: 100vw;height: 100vh;display: flex;flex-direction:row;justify-content: center;
+    align-items: center;">
+        <div style="width: 350px; height: 370px;background: rgb(192, 242, 242);padding: 10px;border-radius: 10px;">
+            <h2 style="text-align: center;">Cadastro de Aluno - Matrícula</h2>
+            <hr>
+            <form action="#">
+                <label for="nome">Nome *</label>
+                <br>
+                <input type="text" id="nome" name="campo" required>
+                <br>
+                <label for="email">Email *</label> 
+                <br>
+                <input type="email" id="email" name="campo" required>
+                <br>
+                <small>exemplo@exemplo.com</small>
+                <br><br>
+                <label for="telefone">Telefone</label>
+                <br>
+                <input type="text" maxlength="2" size="2" id="ddd" placeholder="DDD">            
+                <input type="text" maxlength="9" size="10" id="tefelone" placeholder="Número">
+                <br><br>
+                <label for="select">Disciplina a cursar</label>
+                <br>
+                <select name="materias" id="select">
+                    <option value="" disabled selected hidden></option>
+                    <option value="Programação WEB">Programação WEB</option>
+                    <option value="Estrutura de Dados">Estrutura de Dados</option>
+                    <option value="Sistemas Operacionais">Sistemas Operacionais</option>
+                    <option value="Matemática">Matemática</option>
+                    <option value="Contabilidade">Contabilidade</option>
+                </select>
+                <br>
+                <hr>
+                <div style="text-align: center;">
+                    <input type="submit" value="Enviar">
+                </div>
+                <br>
+                <a href="index.html">Retornar à homepage</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
